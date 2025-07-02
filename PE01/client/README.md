@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+# MyResume
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Input
 
-## Available Scripts
+The primary input for this program is the user's resume data, which is directly embedded within the `Resume.js` React component. This includes personal information, educational background, a list of technical skills, detailed work experience, and descriptions of personal projects. Additionally, styling preferences such as background colors, font styles, and layout adjustments are provided as input through the `Resume.css` file.
 
-In the project directory, you can run:
+## Process
 
-### `npm start`
+The core of the program's operation lies in its processing phase, driven by React's component-based architecture. The `App.js` file serves as the entry point, importing and rendering the `Resume` component. Within `Resume.js`, the structured resume data is processed and transformed into a hierarchy of HTML elements. Concurrently, `Resume.css` is processed by the browser, applying the defined styles to these HTML elements. This ensures that the raw data is rendered with the specified visual presentation, including the lime background and black text, and adheres to the desired layout and typography.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Output
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The final output is a fully interactive and responsive web page displaying the user's professional resume. This output is presented in a clean, organized, and visually appealing format, accessible through any modern web browser. The content is clearly segmented into distinct sections (Header, Summary, Employment, Internships, Projects, Education, Skills), making it easy to navigate and read. The consistent styling ensures a professional and cohesive look, effectively showcasing the user's qualifications and experience.
