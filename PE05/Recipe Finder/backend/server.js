@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cors());
-mongoose.connect("mongodb+srv://lakshmanaakarsh:Akarsh4419*@cs628akarsh.ldeev.mongodb.net/recipes?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://golanjmt:9334390656@cluster0.c0bthsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     dbName: "recipes",
     useNewUrlParser: true,
     useUnifiedTopology: true,
